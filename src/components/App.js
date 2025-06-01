@@ -1,13 +1,12 @@
-
-import React from "react";
-import './../styles/App.css';
+import React from 'react';
+import GreetingInput from './GreetingInput';
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <GreetingInput />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
