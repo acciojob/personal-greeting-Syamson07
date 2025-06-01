@@ -11,7 +11,7 @@ const GreetingInput = () => {
         onChange={(e) => setName(e.target.value)}
         placeholder="Enter your name"
       />
-      {name.trim() && <p>Hello, {name}!</p>}
+      {name.trim() && <p>Hello {name}!</p>}
     </div>
   );
 };
