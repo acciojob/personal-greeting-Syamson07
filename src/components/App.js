@@ -1,5 +1,5 @@
 import React from 'react';
-import GreetingInput from './GreetingInput';
+import GreetingInput from './GreetingInput'; // or './components/GreetingInput' based on your path
 
 const App = () => {
   return (
